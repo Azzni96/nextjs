@@ -1,0 +1,16 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.link {
+    color: #1e90ff;
+    text-decoration: none;
+}
