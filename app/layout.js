@@ -1,3 +1,5 @@
+import './styles/globals.css';
+
 export const metadata = {
   title: "Next.js Course",
   description: "Learning Next.js step by step",
