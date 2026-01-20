@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./home/home.module.css";
 import Navigation from "./components/Navigation";
 import Title from "./components/Title";
-
+import Button from "./components/Button";
 export default function HomePage() {
   return (
     <main>
@@ -10,13 +10,14 @@ export default function HomePage() {
 
       <Title>Styling Assignment 1</Title>
 
+
       <p className={styles.text}>
         This project is for practicing Next.js basics: pages, routing, navigation,
         and styling with CSS Modules.
       </p>
 
-      <Link className={styles.link} href="/about">
-        Go to About Page
+      <Link  href="/about">
+        <Button>About this course</Button>
       </Link>
     </main>
   );
