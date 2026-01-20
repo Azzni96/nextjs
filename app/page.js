@@ -3,6 +3,7 @@ import styles from "./home/home.module.css";
 import Navigation from "./components/Navigation";
 import Title from "./components/Title";
 import Button from "./components/Button";
+import Card from "./components/Card";
 export default function HomePage() {
   return (
     <main>
@@ -19,6 +20,15 @@ export default function HomePage() {
       <Link  href="/about">
         <Button>About this course</Button>
       </Link>
+
+      <Card highlighted={true}>
+  <p>This card is highlighted</p>
+</Card>
+
+<Card highlighted={false}>
+  <p>This card is not highlighted</p>
+</Card>
+
     </main>
   );
 }
