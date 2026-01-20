@@ -4,10 +4,14 @@ import Navigation from "./components/Navigation";
 import Title from "./components/Title";
 import Button from "./components/Button";
 import Card from "./components/Card";
+import AppLayout from "./components/AppLayout";
+
+
 export default function HomePage() {
   return (
     <main>
       <Navigation />
+      <AppLayout>
 
       <Title>Styling Assignment 1</Title>
 
@@ -28,7 +32,7 @@ export default function HomePage() {
 <Card highlighted={false}>
   <p>This card is not highlighted</p>
 </Card>
-
+      </AppLayout>
     </main>
   );
 }
