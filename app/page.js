@@ -6,13 +6,16 @@ import Button from "./components/Button";
 import Card from "./components/Card";
 import AppLayout from "./components/AppLayout";
 import Alert from "./components/Alert";
+import ProfileCard from "./components/ProfileCard";
 
 export default function HomePage() {
   return (
     <main>
       <Navigation />
       <AppLayout>
-
+      
+      <ProfileCard name="Nihad" role="Student" status="pro" />
+      <ProfileCard name="Guest" role="Visitor" status="basic" />
       <Title>Styling Assignment 1</Title>
 
 
