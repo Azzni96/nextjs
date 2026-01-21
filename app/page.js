@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import Button from "./components/Button";
 import Card from "./components/Card";
 import AppLayout from "./components/AppLayout";
-
+import Alert from "./components/Alert";
 
 export default function HomePage() {
   return (
@@ -33,6 +33,8 @@ export default function HomePage() {
   <p>This card is not highlighted</p>
 </Card>
       </AppLayout>
+      <Alert />
     </main>
+
   );
 }
