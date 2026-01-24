@@ -7,6 +7,8 @@ import Card from "./components/Card";
 import AppLayout from "./components/AppLayout";
 import Alert from "./components/Alert";
 import ProfileCard from "./components/ProfileCard";
+import ContactForm from "./components/ContactForm";
+
 
 export default function HomePage() {
   return (
@@ -37,6 +39,8 @@ export default function HomePage() {
 </Card>
       </AppLayout>
       <Alert />
+      <ContactForm />
+
     </main>
 
   );
